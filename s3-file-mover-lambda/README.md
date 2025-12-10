@@ -280,7 +280,7 @@ aws lambda get-policy --function-name s3-inbound-to-processed-mover
 | Operation | Result |
 |----------|--------|
 | Upload file to `inbound/` | Lambda copies it |
-| Delete original file | ❌ NO (kept) |
+| Delete original file | ✅ YES |
 | Create processed copy | ✅ YES |
 | Triggers Lambda | Automatically |
 | Logs | CloudWatch |
