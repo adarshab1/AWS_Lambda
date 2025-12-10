@@ -1,0 +1,16 @@
+ {
+  "LambdaFunctionConfigurations": [
+    {
+      "Id": "InboundPutTrigger",
+      "LambdaFunctionArn": "arn:aws:lambda:ap-south-1:688393570636:function:s3-inbound-to-processed-mover",
+      "Events": ["s3:ObjectCreated:*"],
+      "Filter": {
+        "Key": {
+          "FilterRules": [
+            { "Name": "prefix", "Value": "outbound/" }
+          ]
+        }
+      }
+    }
+  ]
+}

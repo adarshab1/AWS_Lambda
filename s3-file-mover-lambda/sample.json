@@ -1,0 +1,8 @@
+{
+    "checkId": "CHK1001",
+    "claimId": "CLM5001",
+    "paymentCode": "PAY01",
+    "checkNumber": "123456",
+    "amount": 199.99,
+    "status": "Processed"
+}
